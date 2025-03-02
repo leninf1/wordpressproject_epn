@@ -19,11 +19,6 @@ else
     db_ip = "127.0.0.1"
 end
 
-log 'Recuperando IP de base de datos' do
-    level :info 
-end
-
-
 log 'Agregando identificador de URL a archivo host' do
     level :info 
 end
