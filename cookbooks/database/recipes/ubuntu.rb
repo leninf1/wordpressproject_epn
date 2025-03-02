@@ -1,7 +1,7 @@
 log 'Iniciando la configuración de MySQL en Ubuntu' do
     level :info 
-  end
-  
+end
+
 if node != nil && node['config'] != nil
     log 'Configuración encontrada: Iniciando la configuración de MySQL con varibles globales' do
         level :info 
